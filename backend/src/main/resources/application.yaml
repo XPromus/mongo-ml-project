@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: backend
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: airport
+      username: root
+      password: example
+      authentication-database: admin
+      auto-index-creation: true
